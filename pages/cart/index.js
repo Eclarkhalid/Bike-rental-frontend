@@ -305,7 +305,7 @@ export default function Cart() {
     <div className="grid h-screen px-4 bg-white place-content-center">
       <div className="text-center">
 
-        <p className="mt-4 text-text text-2xl">You should sign Up to view cart Items</p>
+        <p className="mt-4 text-text text-2xl">You should sign Up to view bookings</p>
 
         <button
           onClick={() => signIn('google')}
