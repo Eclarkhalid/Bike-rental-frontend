@@ -98,7 +98,7 @@ export default function Cart() {
         <div className=" md:w-2/3  px-4">
           <div className=" mt-16 md:mt-6 ">
             <header className="text-center flex justify-between w-full">
-              <h1 className="text-xl font-bold text-gray-900 sm:text-3xl">Your Cart</h1>
+              <h1 className="text-xl font-bold text-gray-900 sm:text-3xl">Your Bookings</h1>
             </header>
             {loading ? (
               <div className="flex justify-center items-center h-screen">
@@ -106,7 +106,7 @@ export default function Cart() {
               </div>
             ) :
               !products?.length ? (
-                <p className="my-6 text-center ">Your cart is empty</p>
+                <p className="my-6 text-center ">No Bookings</p>
               ) : (
                 <>
                   {products?.length > 0 && products.map(product => (
@@ -170,7 +170,7 @@ export default function Cart() {
                     <div className=" max-w-md space-y-4">
                       <dl className="space-y-0.5 text-md text-gray-700">
                         <div className="flex justify-end text-red-400 border-b mb-3">
-                          <button onClick={deleteCart}>Clear Cart</button>
+                          <button onClick={deleteCart}>Clear Booking</button>
 
                         </div>
                         <div className="flex justify-between">
