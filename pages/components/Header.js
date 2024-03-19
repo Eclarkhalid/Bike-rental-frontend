@@ -75,6 +75,7 @@ export default function Header() {
                 <Link
                   className=" text-md font-medium text-text hidden md:flex border p-2 rounded-xl border-primary/50"
                   href="/https://bike-rental-api.vercel.app"
+                  target="_blank"
                 >
                   Admin Dashboard
                 </Link>
@@ -84,6 +85,7 @@ export default function Header() {
                 <Link
                   className=" text-md font-medium text-text hidden md:flex border p-2 rounded-xl border-primary/50"
                   href="/https://bike-rental-api.vercel.app"
+                  target="_blank"
                 >
                   Admin Dashboard
                 </Link>
