@@ -74,7 +74,7 @@ export default function Header() {
                 </div>
                 <Link
                   className=" text-md font-medium text-text hidden md:flex border p-2 rounded-xl border-primary/50"
-                  href="https://bike-rental-api.vercel.app"
+                  href="https://bike-rental-api.vercel.app/"
                 >
                   Admin Dashboard
                 </Link>
@@ -83,7 +83,7 @@ export default function Header() {
               <div className="sm:flex sm:gap-2 border-r border-primary pr-4">
                 <Link
                   className=" text-md font-medium text-text hidden md:flex border p-2 rounded-xl border-primary/50"
-                  href="https://bike-rental-api.vercel.app"
+                  href="https://bike-rental-api.vercel.app/"
                 >
                   Admin Dashboard
                 </Link>
