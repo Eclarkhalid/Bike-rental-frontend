@@ -220,7 +220,7 @@ export default function Header() {
           </svg>
 
 
-          Products
+          Bicycles
         </Link>
 
         <Link
